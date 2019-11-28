@@ -38,3 +38,7 @@ $env:FLASK_DEBUG = 1
 (4)
 
 python flaskblog.py
+
+
+
+# 02 Templates
