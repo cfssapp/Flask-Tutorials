@@ -45,3 +45,13 @@ python flaskblog.py
 
 
 # 03 Forms and User Input
+
+(1)
+pip install flask-wtf
+
+(2)
+python
+import secrets
+secrets.token_hex(16)
+
+# 04 Database
