@@ -104,3 +104,5 @@ db.drop_all()
 db.create_all()
 User.query.all()
 Post.query.all()
+
+# 05 Package Structure
