@@ -106,3 +106,12 @@ User.query.all()
 Post.query.all()
 
 # 05 Package Structure
+
+python
+from flaskblog import db
+from flaskblog.models import User, Post  
+db.create_all()
+User.query.all()
+
+
+# 05 User Authentication
