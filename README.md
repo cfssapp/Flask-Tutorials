@@ -114,4 +114,28 @@ db.create_all()
 User.query.all()
 
 
-# 05 User Authentication
+# 06 User Authentication
+
+pip install flask-bcrypt
+
+python
+from flask_bcrypt import Bcrypt
+bcrypt = Bcrypt()
+bcrypt.generate_password_hash('testing')
+bcrypt.generate_password_hash('testing').decode('utf-8')
+hashed_pw = bcrypt.generate_password_hash('testing').decode('utf-8')
+bcrypt.check_password_hash(hashed_pw, 'password')
+bcrypt.check_password_hash(hashed_pw, 'testing')
+
+
+(2)
+python
+from flaskblog import db
+from flaskblog.models import User
+user = User.query.first()
+user
+user.password
+
+(3)
+
+pip install flask-login
