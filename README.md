@@ -139,3 +139,6 @@ user.password
 (3)
 
 pip install flask-login
+
+
+# 07 User Account Profile Pic
