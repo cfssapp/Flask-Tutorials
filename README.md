@@ -142,3 +142,5 @@ pip install flask-login
 
 
 # 07 User Account Profile Pic
+
+pip install Pillow
